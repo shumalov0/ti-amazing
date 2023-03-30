@@ -1,3 +1,5 @@
+/*introduction page start*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -150,3 +152,136 @@ body {
     background: #FFA409;
     color: #FFFFFF;
 }
+/*introduction page end*/
+
+/*Ti Amazing home page start*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 35px;
+}
+
+.hed-middle {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.hed-midle ul {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+
+.hed-midle a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: #003254;
+}
+
+.hed-rigth {
+    max-width: 170px;
+    width: 100%;
+}
+
+.hed-rigth a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #FFA409;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.left-content {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.left-content h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 68px;
+}
+
+.left-content  p {
+    max-width: 535px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0D3353;
+    padding-bottom: 48px;
+}
+
+.left-content .l-bottom {
+    display: flex;
+    gap: 10px;
+    max-width: 152px;
+    width: 100%;
+    align-items: center;
+    color: #FFFFFF;
+    background: #FFA409;
+    border-radius: 10px;
+    padding: 10px 0px 10px 10px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.left-content .l-bottom a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.owl-carsel  {
+    display: flex;
+    align-items: center;
+    min-height: 456px;
+    justify-content: space-between;
+}
+
+/* .rigth-casrel {
+    
+} */
+.home-slider .owl-dot span{
+    width: 10px;
+    height: 10px;
+    display: block;
+    background: #003254;
+    border-radius: 50%;
+}
+
+.home-slider.owl-carousel .owl-dot{
+    padding: 5px !important;
+    border: 1px solid #003254;
+    border-radius: 50%;
+}
+
+.home-slider .owl-dots{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.rigth-casrel img {
+    width: 369px;
+    height: 406px;
+}
+
+/*Ti Amazing home page end*/
