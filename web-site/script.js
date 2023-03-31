@@ -1,9 +1,10 @@
+//Ti Academy home page first carsel
 $('.home-slider').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
     autoplay:true,
-    autoplayTimeout:1000,
+    autoplayTimeout:3000,
     autoplayHoverPause:true,
     responsive:{
         0:{
@@ -12,12 +13,36 @@ $('.home-slider').owlCarousel({
     }
 })
 
+//Ti Academy home page carsel two
+$('.home-slider-two').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay: true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    navText: ["<img src='../all-img-Ti-academy/vector-right.png'>","<img src='../all-img-Ti-academy/vector-right.png'>"],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+//two carsel for connect add new cdn link
+
+//introduction page dropdown Ti Academy
 let dropdown = document.querySelector('#dropdown')
 let mainDropdown = document.querySelector('#mainDropdown')
 let dropDown = document.querySelector('#dropDown')
 
 
-//introduction page dropdown
 dropdown.onclick = () => {
     mainDropdown.classList.toggle("active")
     // if(mainDropdown.style.display == "none"){
@@ -31,5 +56,4 @@ dropDown.onclick = () => {
     mainDropdown.classList.toggle('active')
 }
 
-//Ti Academy home page first carsel
 

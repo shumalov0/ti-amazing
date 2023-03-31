@@ -255,10 +255,8 @@ body {
     justify-content: space-between;
 }
 
-/* .rigth-casrel {
-    
-} */
-.home-slider .owl-dot span{
+
+.home-slider .owl-dot span {
     width: 10px;
     height: 10px;
     display: block;
@@ -266,17 +264,18 @@ body {
     border-radius: 50%;
 }
 
-.home-slider.owl-carousel .owl-dot{
+.home-slider.owl-carousel .owl-dot {
     padding: 5px !important;
     border: 1px solid #003254;
     border-radius: 50%;
 }
 
-.home-slider .owl-dots{
+.home-slider .owl-dots {
     position: absolute;
     display: flex;
     justify-content: flex-end;
     width: 100%;
+    right: 14%;
 }
 
 .rigth-casrel img {
@@ -284,4 +283,211 @@ body {
     height: 406px;
 }
 
+section:not(.main) {
+    padding: 70px 0;
+}
+
+.previous {
+    display: none;
+}
+
+.home-slider .owl-dots button {
+    margin-right: 10px;
+}
+
+.home-slider.owl-carousel .owl-dot.active {
+    border:1px solid #FFA409;
+}
+
+.home-slider.owl-carousel .owl-dot.active span{
+    background: #FFA409;
+}
+
+.owl-carousel {
+    padding-top: 40px;
+}
+
+.section-two {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-two h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 59px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 68px;
+    color: #003254;
+    position: relative;
+}
+
+.section-two h2::after {
+    content: '';
+    border: 4px solid #FFA409;
+    width: 77px;
+    position: absolute;
+    bottom: -5px;
+    border-radius: 8px;
+}
+
+
+.carsel-cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    gap: 47px;
+    cursor: pointer;
+}
+
+figure img {
+    width: 87px !important;
+    height: 87px !important;
+    cursor: pointer !important;
+}
+
+
+.card-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer
+}
+
+.card-one figure {
+    display: flex;
+    flex-direction: column;
+    border: 6px solid #FFA409;
+    border-radius: 50%;
+    padding: 30px;
+    gap: 10px;
+}
+
+ .card-one h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    color: #003254;
+    padding-top: 10px;
+    position: relative;
+}
+
+
+.card-one figure img {
+    width: 87px;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-one figure {
+    display: flex;
+    align-items: center;
+}
+
+.home-slider .owl-nav {
+    display: none;
+}
+
+.vector-left {
+    height: 33px;
+    width: 20px !important;
+    color: #C4C4C4;
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+
+.vector-right {
+    height: 33px;
+    width: 20px !important;
+    color: #C4C4C4;
+    position: absolute;
+    left: 0;
+    top: 70px;
+}
+
+.home-slider-two .owl-nav{
+    display: flex !important;
+}
+
+.home-slider-two{
+    position: relative;
+    display: flex;
+}
+
+.home-slider-two .owl-prev{
+    transform: rotate(180deg);
+    position: absolute;
+    left: 0;
+    top: 45%;
+}
+
+.home-slider-two .owl-next{
+    position: absolute;
+    right: 0;
+    top: 45%;
+}
+
+.card-one{
+    max-width: 170px;
+    max-height: 170px;
+}
+
+.home-slider-two .owl-item{
+    display: flex;
+    justify-content: center;
+}
+
+.section-three {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-three h2 {
+    display: flex;
+    justify-content: center;
+    max-height: 200px;
+    align-items: center;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 68px;
+    color: #003254;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.section-three h2::after {
+    content: '';
+    display: flex;
+    position: absolute;
+    width: 77px;
+    border: 4px solid #FFA409;
+    border-radius: 8px;
+    bottom: -5px;
+}
+
+.image-rows {
+    display: flex;
+}
+
+.img-row-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.img-row-one img:nth-child(1) {
+    max-width: 570px;
+    width: 100%;
+    min-height: 273px;
+}
+
+.img-row-one img:nth-child(2) {
+    max-width: 470px;
+    width: 100%;
+    min-height: 191px;
+}
 /*Ti Amazing home page end*/
