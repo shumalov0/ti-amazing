@@ -14,23 +14,33 @@ $('.home-slider').owlCarousel({
 })
 
 //Ti Academy home page carsel two
-$('.home-slider-two').owlCarousel({
+$('.home-slider-two ').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
-    autoplay: true,
+    autoplay:true,
     autoplayTimeout:3000,
     autoplayHoverPause:true,
-    navText: ["<img src='../all-img-Ti-academy/vector-right.png'>","<img src='../all-img-Ti-academy/vector-right.png'>"],
+     navText: ["<img src='../all-img-Ti-academy/vector-right.png'>","<img src='../all-img-Ti-academy/vector-right.png'>"],
     responsive:{
         0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
             items:5
+        }
+    }
+})
+
+//Ti Academy home page carsel three
+$('.home-slider-fourht').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+     navText: ["<img src='../all-img-Ti-academy/vector-right.png'>","<img src='../all-img-Ti-academy/vector-right.png'>"],
+    responsive:{
+        0:{
+            items:3
         }
     }
 })
