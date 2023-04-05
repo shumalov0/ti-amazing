@@ -30,7 +30,7 @@ $('.home-slider-two ').owlCarousel({
 })
 
 //Ti Academy home page carsel three
-$('.home-slider-fourht').owlCarousel({
+$('.home-slider-fourth').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
@@ -45,8 +45,24 @@ $('.home-slider-fourht').owlCarousel({
     }
 })
 
-//two carsel for connect add new cdn link
 
+//tI Academy home page fiveth
+
+$('.home-slider-fiveth').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:3000,
+    center: true,
+    autoplayHoverPause:true,
+     navText: ["<img src='../all-img-Ti-academy/vector-right.png'>","<img src='../all-img-Ti-academy/vector-right.png'>"],
+    responsive:{
+        0:{
+            items:3
+        }
+    }
+})
 //introduction page dropdown Ti Academy
 let dropdown = document.querySelector('#dropdown')
 let mainDropdown = document.querySelector('#mainDropdown')
