@@ -14,6 +14,10 @@ body {
   padding-top: 40px;
 }
 
+.hed-midle ul a:active {
+  border-bottom: 2px solid #ffa409;
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -161,7 +165,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding-top: 35px;
+  padding-top: 34px;
 }
 
 .hed-middle {
@@ -484,8 +488,6 @@ figure img {
   min-height: 273px;
 }
 
-
-
 .img-row-one div:nth-child(2) img {
   max-width: 470px;
   width: 100%;
@@ -668,7 +670,7 @@ figure img {
 }
 
 /*section five start*/
-.center .student-one{
+.center .student-one {
   background: transparent;
   box-shadow: none;
 }
@@ -676,7 +678,7 @@ figure img {
   display: flex;
   flex-wrap: wrap;
 }
-.section-fiveth .owl-item{
+.section-fiveth .owl-item {
   height: 500px;
   display: flex;
   align-items: center;
@@ -802,7 +804,7 @@ figure img {
   box-shadow: 0px 2px 20px rgba(0, 50, 84, 0.2);
 }
 
-.home-slider-fiveth .center  .stud-img img {
+.home-slider-fiveth .center .stud-img img {
   width: 160px !important;
   height: 160px !important;
   border-radius: 50%;
@@ -895,7 +897,7 @@ figure img {
 }
 
 .section-sixth h2::after {
-  content: '';
+  content: "";
   position: absolute;
   border: 4px solid #ffa409;
   width: 65px;
@@ -935,14 +937,14 @@ figure img {
 .two-figure .figure-one img {
   max-width: 370px;
   width: 100%;
-  height: 229px; 
+  height: 229px;
   object-fit: cover;
 }
 
 .two-figure .figure-two img {
   max-width: 276px;
   width: 100%;
-  height: 229px; 
+  height: 229px;
 }
 
 .sec-col-two {
@@ -1005,15 +1007,14 @@ figure img {
 }
 
 .footer-top {
-  background-image: url('../all-img-Ti-academy/footer-img.png');
+  background-image: url("../all-img-Ti-academy/footer-img.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 320px;
-  width: 100%; 
+  width: 100%;
   /* filter: blur(2px); */
   position: relative;
 }
-
 
 .footer-top .blur-area {
   position: absolute;
@@ -1042,11 +1043,10 @@ figure img {
   box-shadow: 12px 17px 19px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
   margin-top: 50px;
-  
 }
 
 .footer-top .form label input {
-  width:  335px;
+  width: 335px;
   height: 48px;
   z-index: 11;
   box-shadow: inset 0px 0px 5px rgba(13, 51, 83, 0.2);
@@ -1054,7 +1054,7 @@ figure img {
   padding: 15px;
   font-size: 16px;
   position: relative;
-  color: #BCC0C3;
+  color: #bcc0c3;
 }
 
 .footer-top .form label input::placeholder {
@@ -1171,7 +1171,6 @@ figure img {
 }
 /*home page section sixth end*/
 
-
 /*Ti Amazing home page end*/
 
 /*Ti Amazing home page-two start*/
@@ -1212,7 +1211,8 @@ figure img {
   bottom: 0;
 }
 
-.img-Two .bllur-effect {    /*tam alinmadi nese*/
+.img-Two .bllur-effect {
+  /*tam alinmadi nese*/
   position: absolute;
   inset: 0;
   background: #003254;
@@ -1220,7 +1220,6 @@ figure img {
   border-radius: 24px;
 }
 /*Ti Amazing home page-two end*/
-
 
 /*Ti Academy about-us page start*/
 .about-imgs {
@@ -1234,7 +1233,7 @@ figure img {
   max-width: 413px;
   width: 100%;
   min-height: 454px;
-  border: 3px solid #FFA409;
+  border: 3px solid #ffa409;
   border-radius: 50% 50% 0 0;
   box-shadow: 6px 7px 10px rgba(0, 50, 84, 0.22);
 }
@@ -1305,7 +1304,6 @@ figure img {
   position: relative;
 }
 
-
 .about-all-two .about-img-two img:nth-child(1) {
   max-width: 370px;
   width: 100%;
@@ -1319,11 +1317,10 @@ figure img {
 }
 /*Ti Academy about-us page end*/
 
-
 /*Ti Academy teaching padge start*/
 
 body header {
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .main .teaching-cards {
@@ -1337,7 +1334,7 @@ body header {
 .teaching-cards .teach-card {
   max-width: 570px;
   width: 100%;
-  border: 3px solid #FFA409;
+  border: 3px solid #ffa409;
   box-shadow: 3px 5px 20px rgba(13, 51, 83, 0.2);
   border-radius: 20px 20px 0 0;
 }
@@ -1359,7 +1356,7 @@ body header {
   width: 100%;
   display: flex;
   text-align: center;
-  padding: 0 0 50px 35px
+  padding: 0 0 50px 35px;
 }
 
 .teaching-cards .teaching-content h2 {
@@ -1384,8 +1381,8 @@ body header {
   display: flex;
   align-items: center;
   border-radius: 8px;
-  border: 1px solid #FFA409;
-  background: #FFA409;
+  border: 1px solid #ffa409;
+  background: #ffa409;
   max-width: 192px;
   width: 100%;
   color: #ffffff;
@@ -1442,26 +1439,229 @@ body header {
 .teach-pop {
   max-width: 1170px;
   width: 100%;
-  border: 3px solid #FFA409;
+  min-height: 486px;
+  border: 3px solid #ffa409;
   box-shadow: 3px 5px 20px rgba(13, 51, 83, 0.2);
-
-}
-
-.teach-pop {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px;
+  border-radius: 20px 20px 0 0;
 }
 
 .pop-content {
   display: flex;
   align-items: center;
+  max-width: 505px;
+  width: 100%;
 }
 
 .pop-content p {
-  max-width: 650px;
-  width: 100%;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   display: flex;
+  font-style: italic;
+}
+
+.pop-right {
+  display: flex;
+  align-items: center;
+  max-width: 505px;
+  width: 100%;
+  padding-left: 25px;
+}
+
+.pop-right ul li {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #003254;
+  font-style: italic;
+}
+
+.pop-line {
+  border: 2px solid #ffa409;
 }
 /*Ti Academy teaching padge end*/
+
+/*Ti Academy instructor start*/
+.teachers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.teachers .sec-img .sec-img-one img {
+  max-width: 275px !important;
+  min-height: 295px !important;
+}
+/*Ti Academy instructor end*/
+
+/*Ti Academy connection start*/
+
+.hed-rigth {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 5px;
+  justify-content: center;
+  background: #ffa409;
+}
+
+.Main {
+  background: #003254;
+}
+
+body header {
+  padding-bottom: 30px;
+}
+
+.connection-all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.connection-all .connect-left {
+  width: 605x;
+  height: 800px;
+}
+
+.connection-all .connect-left img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.map-a {
+  max-width: 540px;
+  width: 100%;
+  max-height: 250px;
+  background: #ffffff;
+  box-shadow: 12px 17px 19px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.phone {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 50px 20px 40px;
+}
+
+.ph-one {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.phone i {
+  color: #ffa409;
+}
+.phone p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.ph-two {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  padding: 0 20px 10px 40px ;
+  gap: 10px;
+}
+
+.location i {
+  color: #ffa409;
+}
+
+.location p {
+  max-width: 503px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 33px;
+  color: #003254;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.soc-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 20px 0 40px;
+}
+
+.soc-left i {
+  color: #ffa409;
+}
+
+.soc-left p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  color: #003254;
+}
+
+.soc-rigth {
+  display: flex;
+  align-items: center;
+}
+
+.soc-rigth i {
+  border: 1px solid #e6e3dd;
+  padding: 5px;
+  border-radius: 50%;
+  background: #3131310D;
+  color: #0f0f0f;
+}
+
+.soc-rigth a {
+  text-decoration: none;
+  font-size: 20px;
+  padding-right: 40px;
+  color: #003254;
+  display: flex;
+  gap: 10px;
+}
+
+.soc-rigth i:hover {
+  background: #ffa409;
+  color: #ffffff;
+}
+
+.connect-map {
+padding: 20px 0;
+max-width: 770px;
+height: 558px;
+}
+
+.connect-map iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/*Ti Academy connection end*/
