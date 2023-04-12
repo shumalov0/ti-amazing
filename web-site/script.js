@@ -63,6 +63,42 @@ $('.home-slider-fiveth').owlCarousel({
         }
     }
 })
+
+
+$('.studentWork').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:3000,
+    center: true,
+     navText: ["<img src='../all-img-Ti-academy/vector-right.png'>","<img src='../all-img-Ti-academy/vector-right.png'>"],
+    responsive:{
+        0:{
+            items:1
+        }
+    }
+})
+//swiper js
+
+ var swiper = new Swiper(".thumbsSlider", {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".thumbsSlider2", {
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+    });  
+
+
 //introduction page dropdown Ti Academy
 let dropdown = document.querySelector('#dropdown')
 let mainDropdown = document.querySelector('#mainDropdown')
@@ -81,5 +117,6 @@ dropdown.onclick = () => {
 dropDown.onclick = () => {
     mainDropdown.classList.toggle('active')
 }
+
 
 

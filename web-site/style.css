@@ -1403,6 +1403,7 @@ body header {
 
 .btns {
   display: flex;
+  flex-wrap: wrap;
   gap: 50px;
   justify-content: center;
   padding-bottom: 30px;
@@ -1665,3 +1666,211 @@ height: 558px;
 }
 
 /*Ti Academy connection end*/
+
+
+
+/* Ti Academy student works start*/
+
+.st-content h2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 55px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 68px;
+  padding-bottom: 30px;
+}
+
+.cards-st {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card-st {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.cards-st .card-st img {
+  max-width: 370px;
+  width: 100%;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.student-content {
+  position: absolute;
+  background: #ffa409;
+  width: 100%;
+  height: 55px;
+  border-radius: 24px;
+  bottom: 0;
+}
+
+.student-content p {
+  display: flex;
+  align-items: center;
+  padding: 13px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  cursor: pointer;
+}
+
+.sec {
+  padding: 0px !important;
+}
+
+.fot {
+  padding-top: 50px !important;
+}
+
+.studentWork .owl-dots button span {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background: #000000;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.studentWork .owl-dots {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.studentWork .owl-dots button.active span {
+  background: #ffa409;
+}
+
+.studentWork .owl-nav {
+  display: none;
+}
+/* Ti Academy student works end*/
+
+
+/*Ti Academy Ayten proyekt start*/
+.thumbsSlider img {
+  width: 100%;
+}
+
+.thumbsSlider2 img {
+  width: 100%;
+}
+
+.col-6 {
+  max-width: 50%;
+  position: relative;
+}
+
+.main-ay .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ayten-card {
+  max-width: 570px;
+  width: 100%;
+  max-height: 510px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: #FFFFFF;
+  box-shadow: 3px 5px 20px rgba(13, 51, 83, 0.2);
+  border-radius: 10px;
+  padding: 50px 0 0 20px;
+}
+
+.ayten-card h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 52px;
+  color: #003254;
+  padding-bottom: 10px;
+}
+
+.ayten-card span {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #003254;
+  padding-bottom: 20px;
+}
+
+.ayten-card p {
+  max-width: 510px;
+  width: 100%;
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  padding-bottom: 30px;
+}
+
+.setificat {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 40px;
+}
+
+.setificat img {
+  color: #003254;
+  cursor: pointer;
+}
+
+.setificat p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #0098FF;
+  padding: 0;
+  cursor: pointer;
+}
+
+.ay-sosial {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 30px;
+  gap: 16px;
+
+}
+
+.ay-sosial i {
+  background: #3131310D;
+  padding: 14px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.ay-sosial i:hover {
+  background: #ffa409;
+}
+
+.ay-content h4 {
+  color: #003254;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+/*Ti Academy Ayten proyekt end*/
