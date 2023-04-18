@@ -1,46 +1,59 @@
+
+
+
+/*hamburger menu start*/
+const hamburger = document.querySelector('.hamburger')
+const navMenu = document.querySelector('.nav-menu')
+
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active')
+    navMenu.classList.toggle('active')
+})
+/*hamburger menu end*/
+
 //Ti Academy home page first carsel
 $('.home-slider').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    autoplay:true,
-    autoplayTimeout:3000,
-    autoplayHoverPause:true,
-    responsive:{
-        0:{
-            items:1
+    loop: true,
+    margin: 10,
+    nav: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    responsive: {
+        0: {
+            items: 1
         }
     }
 })
 
 //Ti Academy home page carsel two
 $('.home-slider-two ').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    autoplay:true,
-    autoplayTimeout:3000,
-    autoplayHoverPause:true,
-     navText: ["<img src='../all-img-Ti-academy/vector-right.png'>","<img src='../all-img-Ti-academy/vector-right.png'>"],
-    responsive:{
-        0:{
-            items:5
+    loop: true,
+    margin: 10,
+    nav: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    navText: ["<img src='../all-img-Ti-academy/vector-right.png'>", "<img src='../all-img-Ti-academy/vector-right.png'>"],
+    responsive: {
+        0: {
+            items: 5
         }
     }
 })
 
 //Ti Academy home page carsel three
 $('.home-slider-fourth').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    autoplay:true,
-    autoplayTimeout:3000,
-    autoplayHoverPause:true,
-     navText: ["<img src='../all-img-Ti-academy/vector-right.png'>","<img src='../all-img-Ti-academy/vector-right.png'>"],
-    responsive:{
-        0:{
-            items:3
+    loop: true,
+    margin: 10,
+    nav: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    navText: ["<img src='../all-img-Ti-academy/vector-right.png'>", "<img src='../all-img-Ti-academy/vector-right.png'>"],
+    responsive: {
+        0: {
+            items: 3
         }
     }
 })
@@ -49,54 +62,54 @@ $('.home-slider-fourth').owlCarousel({
 //tI Academy home page fiveth
 
 $('.home-slider-fiveth').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    autoplay:true,
-    autoplayTimeout:3000,
+    loop: true,
+    margin: 10,
+    nav: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
     center: true,
-    autoplayHoverPause:true,
-     navText: ["<img src='../all-img-Ti-academy/vector-right.png'>","<img src='../all-img-Ti-academy/vector-right.png'>"],
-    responsive:{
-        0:{
-            items:3
+    autoplayHoverPause: true,
+    navText: ["<img src='../all-img-Ti-academy/vector-right.png'>", "<img src='../all-img-Ti-academy/vector-right.png'>"],
+    responsive: {
+        0: {
+            items: 3
         }
     }
 })
 
 
 $('.studentWork').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    autoplay:true,
-    autoplayTimeout:3000,
+    loop: true,
+    margin: 10,
+    nav: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
     center: true,
-     navText: ["<img src='../all-img-Ti-academy/vector-right.png'>","<img src='../all-img-Ti-academy/vector-right.png'>"],
-    responsive:{
-        0:{
-            items:1
+    navText: ["<img src='../all-img-Ti-academy/vector-right.png'>", "<img src='../all-img-Ti-academy/vector-right.png'>"],
+    responsive: {
+        0: {
+            items: 1
         }
     }
 })
 //swiper js
 
- var swiper = new Swiper(".thumbsSlider", {
-      spaceBetween: 10,
-      slidesPerView: 4,
-      freeMode: true,
-      watchSlidesProgress: true,
-    });
-    var swiper2 = new Swiper(".thumbsSlider2", {
-      spaceBetween: 10,
-      navigation: {
+var swiper = new Swiper(".thumbsSlider", {
+    spaceBetween: 10,
+    slidesPerView: 4,
+    freeMode: true,
+    watchSlidesProgress: true,
+});
+var swiper2 = new Swiper(".thumbsSlider2", {
+    spaceBetween: 10,
+    navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
-      },
-      thumbs: {
+    },
+    thumbs: {
         swiper: swiper,
-      },
-    });  
+    },
+});
 
 
 //introduction page dropdown Ti Academy
@@ -117,6 +130,3 @@ dropdown.onclick = () => {
 dropDown.onclick = () => {
     mainDropdown.classList.toggle('active')
 }
-
-
-
