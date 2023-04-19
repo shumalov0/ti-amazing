@@ -2,6 +2,8 @@
 
 
 /*hamburger menu start*/
+
+
 const hamburger = document.querySelector('.hamburger')
 const navMenu = document.querySelector('.nav-menu')
 
@@ -9,6 +11,8 @@ hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active')
     navMenu.classList.toggle('active')
 })
+
+
 /*hamburger menu end*/
 
 //Ti Academy home page first carsel
@@ -21,6 +25,12 @@ $('.home-slider').owlCarousel({
     autoplayHoverPause: true,
     responsive: {
         0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
             items: 1
         }
     }
@@ -37,6 +47,12 @@ $('.home-slider-two ').owlCarousel({
     navText: ["<img src='../all-img-Ti-academy/vector-right.png'>", "<img src='../all-img-Ti-academy/vector-right.png'>"],
     responsive: {
         0: {
+            items: 1
+        },
+        600: {
+            items: 3
+        },
+        1000: {
             items: 5
         }
     }
@@ -53,6 +69,12 @@ $('.home-slider-fourth').owlCarousel({
     navText: ["<img src='../all-img-Ti-academy/vector-right.png'>", "<img src='../all-img-Ti-academy/vector-right.png'>"],
     responsive: {
         0: {
+            items: 1
+        },
+        600: {
+            items: 2
+        },
+        1000: {
             items: 3
         }
     }
@@ -72,6 +94,12 @@ $('.home-slider-fiveth').owlCarousel({
     navText: ["<img src='../all-img-Ti-academy/vector-right.png'>", "<img src='../all-img-Ti-academy/vector-right.png'>"],
     responsive: {
         0: {
+            items: 1
+        },
+        600: {
+            items: 3
+        },
+        1000: {
             items: 3
         }
     }
@@ -89,6 +117,12 @@ $('.studentWork').owlCarousel({
     responsive: {
         0: {
             items: 1
+        },
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 5
         }
     }
 })
