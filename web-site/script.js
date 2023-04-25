@@ -1,16 +1,6 @@
 
 
 
-/*hamburger menu start*/
-
-
-const hamburger = document.querySelector('.hamburger')
-const navMenu = document.querySelector('.nav-menu')
-
-hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('active')
-    navMenu.classList.toggle('active')
-})
 
 
 /*hamburger menu end*/
@@ -157,10 +147,21 @@ dropdown.onclick = () => {
     // if(mainDropdown.style.display == "none"){
     //     mainDropdown.style.display = "flex"
     // }else{
-    //     mainDropdown.style.display = "none"
+        //     mainDropdown.style.display = "none"
     // }
 }
 
 dropDown.onclick = () => {
     mainDropdown.classList.toggle('active')
 }
+
+/*hamburger menu start*/
+
+
+const hamburger = document.querySelector('.hamburger')
+const navMenu = document.querySelector('.nav-menu')
+
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active')
+    navMenu.classList.toggle('active')
+})
