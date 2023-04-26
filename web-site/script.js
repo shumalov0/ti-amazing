@@ -117,6 +117,16 @@ $('.studentWork').owlCarousel({
     }
 })
 //swiper js
+/*hamburger menu start*/
+
+
+const hamburger = document.querySelector('.hamburger')
+const navMenu = document.querySelector('.nav-menu')
+
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active')
+    navMenu.classList.toggle('active')
+})
 
 var swiper = new Swiper(".thumbsSlider", {
     spaceBetween: 10,
@@ -154,14 +164,3 @@ dropdown.onclick = () => {
 dropDown.onclick = () => {
     mainDropdown.classList.toggle('active')
 }
-
-/*hamburger menu start*/
-
-
-const hamburger = document.querySelector('.hamburger')
-const navMenu = document.querySelector('.nav-menu')
-
-hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('active')
-    navMenu.classList.toggle('active')
-})
