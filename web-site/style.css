@@ -2418,6 +2418,7 @@ body header {
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
+    align-items: center;
   }
 
   .footer-bottom .container {
@@ -2429,7 +2430,8 @@ body header {
   }
 
   .sec-img {
-    justify-content: center !important;  /*i have problem*/
+    justify-content: center !important;
+    /*i have problem*/
   }
 
   .home-slider-fourth .owl-prev {
@@ -2439,7 +2441,7 @@ body header {
     top: 45%;
   }
 
-  
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -2875,7 +2877,7 @@ body header {
     width: 100%;
     border-top-right-radius: 50%;
     margin: 0 AUTO;
-}
+  }
 }
 
 @media only screen and (max-width: 340px) {
@@ -3060,28 +3062,406 @@ body header {
     min-height: 273px;
     object-fit: cover;
     border-radius: 24px;
+  }
+
+  .imgTwo p {
+    background: #003254;
+    color: #ffffff;
+    max-width: 462px;
+    height: 98px;
+    border-radius: 24px;
+    position: absolute;
+    width: 100%;
+    padding: 30px 0 0 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    bottom: -98px;
+    transition: 0.5s all ease-in-out;
+  }
+
+  .student-work .owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    right: 10px;
+  }
 }
 
-.imgTwo p {
-  background: #003254;
-  color: #ffffff;
-  max-width: 462px;
-  height: 98px;
-  border-radius: 24px;
-  position: absolute;
-  width: 100%;
-  padding: 30px 0 0 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 30px;
-  bottom: -98px;
-  transition: 0.5s all ease-in-out;
+
+/*Ti Academy Ayten proyekt end*/
+/* *container size 1170 - 993
+*2-992 - 769 
+*768 - 569
+3-568 - 340
+*/
+
+/*about page responsive start*/
+@media only screen and (max-width: 1171px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .about-imgs .ai-one img {
+    max-width: 350px;
+    width: 100%;
+    min-height: 411px;
+    border: 3px solid #ffa409;
+    border-radius: 50% 50% 0 0;
+    box-shadow: 6px 7px 10px rgba(0, 50, 84, 0.22);
+  }
+
+  .about-all-one {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 55px;
+  }
+
+  .about-all-one .about-img img {
+    max-width: 545px;
+    width: 100%;
+  }
+
+  .about-content p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #003254;
+    max-width: 428px;
+  }
+
+  .about-all-two .about-img-two img:nth-child(1) {
+    max-width: 323px;
+    width: 100%;
+  }
+
+  .about-all-two .about-img-two img:nth-child(2) {
+    max-width: 235px;
+    top: 200px;
+    width: 100%;
+    position: absolute;
+  }
+
+  .sec-img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .section-fourth .container .owl-carousel .owl-nav .owl-prev {
+    margin-left: 56px;
+  }
 }
 
-.student-work .owl-carousel .owl-nav .owl-next {
-  position: absolute;
-  display: flex;
-  justify-content: flex-end;
-  right: 10px;
+@media only screen and (max-width: 993px) {
+  .about-imgs {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+
+  .about-imgs .ai-one img {
+    max-width: 340px;
+    width: 100%;
+    min-height: 325px;
+    border: 3px solid #ffa409;
+    border-radius: 50% 50% 0 0;
+    box-shadow: 6px 7px 10px rgba(0, 50, 84, 0.22);
+  }
+
+  .ai-content h2 {
+    font-size: 35px;
+  }
+
+  .ai-content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0d3353;
+    max-width: 330px;
+  }
+
+  .about-all-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 55px;
+  }
+
+  .about-content h3 {
+    text-align: center;
+  }
+
+  .about-content p {
+    max-width: 928px;
+    padding-bottom: 30px;
+  }
+
+  .about-all-one .about-img img {
+    max-width: 690px;
+    width: 100%;
+  }
+
+  .about-all-two .about-img-two img:nth-child(2) {
+    max-width: 279px;
+    top: 53px;
+    width: 100%;
+    position: absolute;
+  }
+
+  .about-all-two .about-img-two img:nth-child(1) {
+    max-width: 378px;
+    width: 100%;
+  }
+
+  .about-all-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    position: relative;
+    gap: 25px;
+  }
+
+  .about-all-two .about-img-two img:nth-child(2) {
+    position: static;
+  }
+
+  .about-all-two .about-img-two {
+    order: 1;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .about-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .ai-content h2 {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .ai-content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0d3353;
+    max-width: 704px;
+    padding-bottom: 25px !important;
+  }
+
+  .main .container .about-imgs .ai-one {
+    order: 1;
+  }
+
+  .about-all-two .about-img-two img:nth-child(2) {
+    max-width: 374px;
+    width: 100%;
+  }
+
+  .footer-top .form label input {
+    width: 270px;
+    height: 48px;
+    z-index: 11;
+    box-shadow: inset 0px 0px 5px rgba(13, 51, 83, 0.2);
+    border-radius: 29px;
+    padding: 15px;
+    font-size: 16px;
+    position: relative;
+    color: #bcc0c3;
 }
 }
+
+@media only screen and(max-width: 570px) {
+  .ai-content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0d3353;
+    max-width: 499px;
+    padding-bottom: 25px !important;
+  }
+
+  body header {
+    padding-bottom: 0px !important;
+  }
+
+
+}
+
+@media only screen and (max-width: 340px) {
+  .ai-content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0d3353;
+    max-width: 499px;
+    padding-bottom: 20px;
+  }
+
+  .footer-content p {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 45px;
+    font-size: 20px;
+    color: #ffa409;
+    display: none !important;
+  }
+}
+
+/*about page responsive end*/
+
+/*teaching page responsive start*/
+
+@media only screen and (max-width: 1171px) {
+  .main .teaching-cards {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .teaching-cards .teaching-content p {
+    max-width: 935px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    font-style: italic;
+    color: #003254;
+  }
+
+  .teaching-cards .teaching-content h2 {
+    text-align: center;
+  }
+
+  .teaching-cards .teach-card {
+    max-width: 453px;
+    width: 100%;
+    border: 3px solid #ffa409;
+    box-shadow: 3px 5px 20px rgba(13, 51, 83, 0.2);
+    border-radius: 20px 20px 0 0;
+  }
+
+  .teaching-cards .teach-card p {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .teach-pop {
+    max-width: 1170px;
+    width: 100%;
+    min-height: 486px;
+    border: 3px solid #ffa409;
+    box-shadow: 3px 5px 20px rgba(13, 51, 83, 0.2);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    border-radius: 20px 20px 0 0;
+    gap: 30px !important;
+  }
+
+  .pop-line {
+    border: 2px solid #ffa409;
+    display: none;
+  }
+
+  .pop-content p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    font-style: italic;
+    border-bottom: 3px solid orange;
+    padding-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  .teaching-cards .teach-card {
+    max-width: 677px;
+    width: 100%;
+    border: 3px solid #ffa409;
+    box-shadow: 3px 5px 20px rgba(13, 51, 83, 0.2);
+    border-radius: 20px 20px 0 0;
+  }
+
+  .teaching-cards .teach-card p {
+    max-width: 604px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 769px) {}
+
+@media only screen and (max-width: 571px) {
+  .teaching-cards .teaching-content h2 {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .teaching-cards .teach-card p {
+    max-width: 257px;
+    width: 100%;
+  }
+
+  .btn {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 47px;
+    justify-content: center;
+  }
+
+  .section-fiveth h2 {
+    font-size: 23px !important;
+  }
+
+  .section-fiveth h2::after {
+    content: "";
+    position: absolute;
+    border: 4px solid #ffa409;
+    border-radius: 8px;
+    width: 65px;
+    bottom: 0;
+    right: 30%;
+    transform: translateX(-50%);
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .teaching-cards .teach-card p {
+    max-width: 173px;
+    width: 100%;
+  }
+
+  .teach-signIn {
+    max-width: 133px;
+    width: 100%;
+  }
+
+  .pop-right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 195px;
+    width: 100%;
+  }
+}
+
+/*teaching page responsive end*/
