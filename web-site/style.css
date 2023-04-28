@@ -34,7 +34,7 @@ body {
   display: flex;
   text-align: center;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .lang {
@@ -3279,7 +3279,7 @@ body header {
     font-size: 16px;
     position: relative;
     color: #bcc0c3;
-}
+  }
 }
 
 @media only screen and(max-width: 570px) {
@@ -3416,7 +3416,7 @@ body header {
   }
 
   .teaching-cards .teach-card p {
-    max-width: 257px;
+    max-width: 467px;
     width: 100%;
   }
 
@@ -3442,16 +3442,43 @@ body header {
     right: 30%;
     transform: translateX(-50%);
   }
+
+  .section-fiveth .container .student-work .owl-carousel .owl-nav {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    justify-content: space-between;
+    width: 100%;
+    /*whydaaa*/
+  }
+
+  .footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 425px;
+  }
+
+  .section-fiveth h2::after {
+    content: "";
+    position: absolute;
+    border: 4px solid #ffa409;
+    border-radius: 8px;
+    width: 65px;
+    bottom: 0;
+    right: 36%;
+    transform: translateX(-50%);
+  }
 }
 
 @media only screen and (max-width: 340px) {
   .teaching-cards .teach-card p {
-    max-width: 173px;
+    max-width: 253px;
     width: 100%;
   }
 
   .teach-signIn {
-    max-width: 133px;
+    max-width: 191px;
     width: 100%;
   }
 
@@ -3462,6 +3489,234 @@ body header {
     max-width: 195px;
     width: 100%;
   }
+
+  .footer-top .form label input {
+    width: 220px;
+    height: 48px;
+    z-index: 11;
+    box-shadow: inset 0px 0px 5px rgba(13, 51, 83, 0.2);
+    border-radius: 29px;
+    padding: 15px;
+    font-size: 16px;
+    position: relative;
+    color: #bcc0c3;
+  }
 }
 
 /*teaching page responsive end*/
+
+
+
+
+/*instruktor page responsive start*/
+
+@media only screen and (max-width: 1171px) {
+  .teachers .sec-img .sec-img-one img {
+    max-width: 263px !important;
+    min-height: 280px !important;
+  }
+
+  .img-info {
+    height: 120px;
+  }
+
+  .teachers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 993px) {}
+
+
+@media only screen and (max-width: 769px) {
+  .teachers .sec-img .sec-img-one img {
+    max-width: 254px !important;
+    min-height: 280px !important;
+  }
+
+  .footer-top .form label input {
+    width: 304px;
+  }
+}
+
+@media only screen and (max-width: 571px) {
+  .img-info p::after {
+    content: "";
+    right: 34%;
+  }
+
+  .footer-top .form label input {
+    width: 269 px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .footer-top .form label input {
+    width: 156px;
+  }
+}
+
+
+/*instruktor page responsive end*/
+
+
+/*connection page responsive start*/
+
+@media only screen and (max-width: 1171px) {
+  .connection-all {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .connection-all .connect-left img {
+    width: 96%;
+    height: 96%;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .connection-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .connection-all .connect-left img {
+    width: 100%;
+    max-width: 592px;
+    height: 96%;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 769px) {}
+
+@media only screen and (max-width: 571px) {
+  .connection-all .connect-left img {
+    width: 100%;
+    max-width: 592px;
+    height: 87%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .map-a {
+    max-width: 540px;
+    width: 100%;
+    max-height: 327px;
+    background: #ffffff;
+    box-shadow: 12px 17px 19px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .soc-rigth {
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+  }
+
+  .connect-map {
+    padding: 20px 0;
+    max-width: 770px;
+    height: 440px;
+  }
+
+  .footer-top .form label input {
+    width: 221px;
+  }
+
+  .author p {
+    font-size: 12px;
+  }
+
+  .footer-content p {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 45px;
+    font-size: 20px;
+    color: #ffa409;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 340px) {}
+
+/*connection page responsive end*/
+
+
+/* *container size 1170 - 993
+*2-992 - 769 
+*768 - 569
+3-568 - 340
+*/
+
+/*student work pahe responsive start*/
+
+@media only screen and (max-width: 1171px) {}
+
+@media only screen and (max-width: 992px) {
+  .student-content {
+    position: absolute;
+    background: #ffa409;
+    width: 88%;
+    height: 40px;
+    border-radius: 24px;
+    bottom: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cards-st {
+    display: flex;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .student-content {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .footer-top .form label input {
+    width: 303px;
+}
+}
+
+@media only screen and (max-width: 340px) {
+  .st-content h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 68px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.footer-top .form label input {
+  width: 220px;
+}
+}
+
+
+/*student work pahe responsive end*/
