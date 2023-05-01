@@ -1,7 +1,12 @@
 
-
-
-
+$(window).scroll(function() { 
+    var scroll = $(window).scrollTop();
+    if (scroll >= 50 ) {
+        $("header").addClass("active")
+    }else{
+        $("header").removeClass("active")
+    }
+});
 
 /*hamburger menu end*/
 
@@ -126,6 +131,7 @@ const navMenu = document.querySelector('.nav-menu')
 hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active')
     navMenu.classList.toggle('active')
+
 })
 
 var swiper = new Swiper(".thumbsSlider", {
