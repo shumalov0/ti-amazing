@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(276deg, #FAF4F7, #EAF6E4);
+}
+
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
+
+.Giris {
+    margin-top: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+
+.cards .ti-academy{
+    max-width: 545px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(139, 139, 139, 0.25);
+    border-radius: 10px;
+    min-height: 700px;
+
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.language p {
+    font-weight: 600;
+
+}
+
+.language{
+    cursor: pointer;
+   
+}
+
+.lang-choice{
+    list-style: none;
+    text-align: center;
+    background-color: #FFA409;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 3px 5px;
+    
+
+}
+
+.lang-choice.active{
+    display: none;
+}
+
+
+
+
+.ti-academy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.ti-academy-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 485px;
+    padding-top: 40px;
+    text-align: center;
+}
+.ti-academy-text h2{
+    color: #003254;
+    font-size: 30px;
+    font-weight: 600;
+}
+.ti-academy-text p{
+    color: #003254;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.ti-academy-text button{
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid #FFA409;
+   border-radius: 8px;
+   background: transparent;
+   cursor: pointer;
+}
+.ti-academy-text button a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #003254;
+}
+
+.ti-academy-text button:hover{
+    background-color: #FFA409;
+}
+
+
+
